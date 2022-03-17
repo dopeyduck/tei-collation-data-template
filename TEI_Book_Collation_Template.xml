@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <!--For use with the open-cbgm by Joey McCollum.
+        This "template" is based on Joey McCollum's sample collation of 3 John that he included in the open-cbgm library.
+
+        https://github.com/jjmccollum
+        https://hcommons.org/members/jjmccollum/
+    
+    -->
+    <!--https://github.com/jjmccollum/open-cbgm-standalone-->
+    <!-- This section of is the header. It has the title of the edition, the book that is being collated, publisher data, and the witness list. This has been left mostly so it is customizable. 
+    
+    For a more indepth look at the TEI standard, check out https://tei-c.org/release/doc/tei-p5-doc/en/html/
+
+    This document is a work in process and put out publicly just to maybe help someone get going with their own (almost) blank template. Please let me know if I can improve it or if you have any comments or suggestions.
+
+    Contact info:
+    Nicholas Lamme
+    nicklamme@dallasseminary.edu
+    www.biblegumshoe.com
+    https://hcommons.org/members/nicolk/
+    https://odysee.com/@NTTC:1?r=7rVLA5LfJu6TwvcoJECp2hkNw5zBHTzD
+
+    -->
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><emph>Editio Critica Maior</emph> Collation of Jude</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <pubPlace></pubPlace>
+                <date></date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="A" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                    <witness n="" />
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <!--Collation data-->
+
+    <text xml:lang="GRC">
+       <body>
+            <div type="book" n="B26"> <!--Book number correspond to their customary order in English translations.-->
+                <div type="chapter" n="B26K1">
+                    <ab n="B26K1V1">
+                        <app n="B26K1V1U4-8"> <!--These are the variation units and correspond to the apparatus of the ECM-->
+                            <rdg n="a"
+                            wit="">Variant reading goes here</rdg> <!--The witnesses are separated by a space and the variatn reading goes before the closing tag. A "type" identifier can go here to identify a reading as defecting, ambiguous, orthographic.-->
+                            <note>
+                                <label>Jude 1:1/4-8</label>
+                                <fs>
+                                    <f name="connectivity">
+                                        <numeric value="10" />
+                                    </f>
+                                </fs>
+                                <graph type="directed">
+                                    <node n="a" />
+                                    <node n="b" />
+                                    <node n="c" />
+                                    <node n="d" />
+                                    <arc from="a" to="b" />
+                                    <arc from="a" to="c" />
+                                    <arc from="a" to="d" />
+                                </graph>
+                            </note>
+                        </app>
+                        
+                        
+                        <app n="">
+                            <rdg n="" type="" wit=""></rdg>
+                            <rdg n="" type="" wit=""></rdg>
+                            <rdg n="" type="" wit=""></rdg>
+                            <note>
+                                <label></label>
+                                <fs>
+                                    <f name="connectivity">
+                                        <numeric value="10">
+                                    </f>
+                                </fs>
+                                <graph type="directed">
+                                    <node n="a" />
+                                    <node n="" />
+                                    <node n="a" />
+                                    <arc from="a" to="" />
+                                    <arc from="a" to="" />
+                                </graph>
+                            </note>
+                        </app>
+
+                        <app n="">
+                            <rdg n="" type="" wit=""></rdg>
+                            <rdg n="" type="" wit=""></rdg>
+                            <rdg n="" type="" wit=""></rdg>
+                            <note>
+                                <label></label>
+                                <fs>
+                                    <f name="connectivity">
+                                        <numeric value="10">
+                                    </f>
+                                </fs>
+                                <graph type="directed">
+                                    <node n="a" />
+                                    <node n="" />
+                                    <node n="a" />
+                                    <arc from="a" to="" />
+                                    <arc from="a" to="" />
+                                </graph>
+                            </note>
+                        </app>
+
+                        <app n="">
+                            <rdg n="" type="" wit=""></rdg>
+                            <rdg n="" type="" wit=""></rdg>
+                            <rdg n="" type="" wit=""></rdg>
+                            <note>
+                                <label></label>
+                                <fs>
+                                    <f name="connectivity">
+                                        <numeric value="10">
+                                    </f>
+                                </fs>
+                                <graph type="directed">
+                                    <node n="a" />
+                                    <node n="" />
+                                    <node n="a" />
+                                    <arc from="a" to="" />
+                                    <arc from="a" to="" />
+                                </graph>
+                            </note>
+                        </app>
+
+                        <app n="">
+                            <rdg n="" type="" wit=""></rdg>
+                            <rdg n="" type="" wit=""></rdg>
+                            <rdg n="" type="" wit=""></rdg>
+                            <note>
+                                <label></label>
+                                <fs>
+                                    <f name="connectivity">
+                                        <numeric value="10">
+                                    </f>
+                                </fs>
+                                <graph type="directed">
+                                    <node n="a" />
+                                    <node n="" />
+                                    <node n="a" />
+                                    <arc from="a" to="" />
+                                    <arc from="a" to="" />
+                                </graph>
+                            </note>
+                        </app>
+
+                        <app n="">
+                            <rdg n="" type="" wit=""></rdg>
+                            <rdg n="" type="" wit=""></rdg>
+                            <rdg n="" type="" wit=""></rdg>
+                            <note>
+                                <label></label>
+                                <fs>
+                                    <f name="connectivity">
+                                        <numeric value="10">
+                                    </f>
+                                </fs>
+                                <graph type="directed">
+                                    <node n="a" />
+                                    <node n="" />
+                                    <node n="a" />
+                                    <arc from="a" to="" />
+                                    <arc from="a" to="" />
+                                </graph>
+                            </note>
+                        </app>
+
+                    </ab>
+                </div>
+            </div>
+       </body> 
+    </text>
+
+
+
+
+
+
+</TEI>
